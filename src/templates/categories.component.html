@@ -1,0 +1,9 @@
+<div class="list-group">
+	<a
+		class="list-group-item-primary list-group-item-action text-center"
+		ng-repeat="item in $ctrl.categories"
+		ui-sref="items({catgshrna:item.short_name,catname:item.name})"
+	>
+		{{ item.name }}
+	</a>
+</div>
